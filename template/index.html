@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan d'Adoption Numérique</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <span class="logo-text">Strategic AI</span>
+                </div>
+                <div class="header-badge">
+                    <i class="fas fa-lock"></i>
+                    <span>Confidentiel</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <i class="fas fa-sparkles"></i>
+                        <span>Diagnostic IA 2026</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Plan d'Adoption
+                        <span class="accent">Numérique</span>
+                    </h1>
+                    <div class="company-name" id="company-display">
+                        Pardeux e-learning
+                    </div>
+                    <p class="hero-description">
+                        Transformation digitale intelligente propulsée par l'IA
+                    </p>
+                </div>
+                <div class="hero-visual">
+                    <div class="visual-orb">
+                        <div class="orb-ring"></div>
+                        <div class="orb-ring"></div>
+                        <div class="orb-core">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-items">
+                <button class="nav-item active" data-section="overview">
+                    <i class="fas fa-building"></i>
+                    <span>Vue d'ensemble</span>
+                </button>
+                <button class="nav-item" data-section="strategy">
+                    <i class="fas fa-chess-king"></i>
+                    <span>Stratégie</span>
+                </button>
+                <button class="nav-item" data-section="analysis">
+                    <i class="fas fa-chart-pie"></i>
+                    <span>Analyse</span>
+                </button>
+                <button class="nav-item" data-section="recommendations">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>Actions</span>
+                </button>
+                <button class="nav-item" data-section="personas">
+                    <i class="fas fa-users"></i>
+                    <span>Personas</span>
+                </button>
+                <button class="nav-item" data-section="web-analysis">
+                    <i class="fas fa-globe"></i>
+                    <span>Analyse Web</span>
+                </button>
+                <button class="nav-item" data-section="conclusion">
+                    <i class="fas fa-flag-checkered"></i>
+                    <span>Conclusion</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            
+            <!-- Overview Section -->
+            <section id="overview" class="section active">
+                <div class="section-header">
+                    <h2 class="section-title">Analyse de l'entreprise</h2>
+                </div>
+                
+                <div class="cards-grid">
+                    <div class="card featured">
+                        <div class="card-image">
+                            <img src="/placeholder.svg?height=200&width=400" alt="État entreprise" />
+                            <div class="card-overlay">
+                                <i class="fas fa-building"></i>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">État de l'entreprise</h3>
+                            <p class="card-text" id="etat-entreprise">Chargement...</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="/placeholder.svg?height=150&width=300" alt="Secteur" />
+                            <div class="card-overlay">
+                                <i class="fas fa-industry"></i>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Secteur d'activité</h3>
+                            <p class="card-text" id="secteur-activite">Chargement...</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="/placeholder.svg?height=150&width=300" alt="Positionnement" />
+                            <div class="card-overlay">
+                                <i class="fas fa-crosshairs"></i>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Positionnement</h3>
+                            <p class="card-text" id="positionnement">Chargement...</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="/placeholder.svg?height=150&width=300" alt="Enjeux" />
+                            <div class="card-overlay">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Enjeux critiques</h3>
+                            <p class="card-text" id="enjeux">Chargement...</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="/placeholder.svg?height=150&width=300" alt="Besoins" />
+                            <div class="card-overlay">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Besoins identifiés</h3>
+                            <p class="card-text" id="besoins">Chargement...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Strategy Section -->
+            <section id="strategy" class="section">
+                <div class="section-header">
+                    <h2 class="section-title">Vision stratégique</h2>
+                </div>
+                
+                <div class="strategy-grid">
+                    <div class="strategy-card">
+                        <div class="strategy-icon">
+                            <i class="fas fa-flag"></i>
+                        </div>
+                        <h3>Mission</h3>
+                        <p id="mission">Chargement...</p>
+                    </div>
+
+                    <div class="strategy-card">
+                        <div class="strategy-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3>Vision</h3>
+                        <p id="vision">Chargement...</p>
+                    </div>
+
+                    <div class="strategy-card">
+                        <div class="strategy-icon">
+                            <i class="fas fa-signature"></i>
+                        </div>
+                        <h3>Signature</h3>
+                        <p id="signature-strategique">Chargement...</p>
+                    </div>
+
+                    <div class="strategy-card full">
+                        <div class="strategy-icon">
+                            <i class="fas fa-target"></i>
+                        </div>
+                        <h3>Objectifs stratégiques</h3>
+                        <div id="objectifs">Chargement...</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Analysis Section -->
+            <section id="analysis" class="section">
+                <div class="section-header">
+                    <h2 class="section-title">Analyse SWOT</h2>
+                </div>
+                
+                <div class="swot-grid">
+                    <div class="swot-card positive">
+                        <div class="swot-header">
+                            <i class="fas fa-shield-alt"></i>
+                            <h3>Forces</h3>
+                        </div>
+                        <p id="forces">Chargement...</p>
+                    </div>
+
+                    <div class="swot-card negative">
+                        <div class="swot-header">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <h3>Faiblesses</h3>
+                        </div>
+                        <p id="faiblesses">Chargement...</p>
+                    </div>
+
+                    <div class="swot-card positive">
+                        <div class="swot-header">
+                            <i class="fas fa-arrow-trend-up"></i>
+                            <h3>Opportunités</h3>
+                        </div>
+                        <p id="opportunites">Chargement...</p>
+                    </div>
+
+                    <div class="swot-card negative">
+                        <div class="swot-header">
+                            <i class="fas fa-triangle-exclamation"></i>
+                            <h3>Menaces</h3>
+                        </div>
+                        <p id="menaces">Chargement...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Recommendations Section -->
+            <section id="recommendations" class="section">
+                <div class="section-header">
+                    <h2 class="section-title">Plan d'action</h2>
+                </div>
+                
+                <div class="recommendations">
+                    <div id="recommendations-list">
+                        <!-- Recommendations will be injected here -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Personas Section -->
+            <section id="personas" class="section">
+                <div class="section-header">
+                    <h2 class="section-title">Profils clients</h2>
+                </div>
+                
+                <div id="personas-grid" class="personas-grid">
+                    <!-- Personas will be injected here -->
+                </div>
+            </section>
+
+            <!-- Web Analysis Section -->
+            <section id="web-analysis" class="section">
+                <div class="section-header">
+                    <h2 class="section-title">Analyse Web Client</h2>
+                </div>
+                
+                <div class="web-analysis-grid">
+                    <div class="web-analysis-card">
+                        <div class="card-icon"><i class="fas fa-tachometer-alt"></i></div>
+                        <h3 class="card-title">Performance du Site</h3>
+                        <p id="web-performance">Chargement des données d'analyse de performance...</p>
+                    </div>
+                    <div class="web-analysis-card">
+                        <div class="card-icon"><i class="fas fa-search"></i></div>
+                        <h3 class="card-title">Optimisation SEO</h3>
+                        <p id="web-seo">Chargement des données d'analyse SEO...</p>
+                    </div>
+                    <div class="web-analysis-card">
+                        <div class="card-icon"><i class="fas fa-user-friends"></i></div>
+                        <h3 class="card-title">Expérience Utilisateur (UX)</h3>
+                        <p id="web-ux">Chargement des données d'analyse UX...</p>
+                    </div>
+                    <div class="web-analysis-card">
+                        <div class="card-icon"><i class="fas fa-code"></i></div>
+                        <h3 class="card-title">Technologies Utilisées</h3>
+                        <p id="web-technologies">Chargement des données d'analyse des technologies...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Conclusion Section -->
+            <section id="conclusion" class="section">
+                <div class="section-header">
+                    <h2 class="section-title">Conclusion stratégique</h2>
+                </div>
+                
+                <div class="conclusion-container">
+                    <div class="conclusion-card">
+                        <div class="conclusion-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="conclusion-content">
+                            <h3>Synthèse et recommandations finales</h3>
+                            <p id="conclusion-text">Chargement...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <span class="footer-copyright">
+                        &copy; 2026 wlw. Tous droits réservés.
+                    </span>
+                </div>
+                <div class="footer-right">
+                    <span class="footer-report-date" id="footer-date"></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
